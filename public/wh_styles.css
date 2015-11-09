@@ -1,0 +1,94 @@
+/*Fonts*/
+@font-face {
+font-family: 'ShadowsIntoLight';
+src: url('fonts/ShadowsIntoLight.ttf');
+}
+
+@font-face {
+font-family: 'VarelaRound';
+src: url('fonts/VarelaRound-Regular.ttf');
+}
+
+/*Color*/
+.color-yellow {
+    color: #F9AC08;
+}
+
+.color-green {
+    color: #AAC720;
+}
+
+.color-blue {
+    color: #01ABCF;
+}
+
+.color-pink {
+    color: #EA3A68;
+}
+
+.color-white {
+    color: #FFFFF;
+}
+
+.color-lightgray {
+    color:#979CB8;
+}
+
+.color-darkgray {
+    color: #505670;
+}
+
+.color-papergray {
+    color:#F5F5F5;
+}
+
+h1 {
+     font-family: ShadowsIntoLight;
+     font-size: 50px;
+     color: #FFFFFF;
+     white-space: nowrap;
+     text-align:center;
+}
+
+h2 {
+    font-family: ShadowsIntoLight;
+    font-size: 30px;
+    color: #FFFFFF;
+    white-space: nowrap;
+    text-align:center;
+}
+
+h3 {
+    font-family: ShadowsIntoLight;
+    font-size: 30px;
+    color: #979CB8;
+    white-space: nowrap;
+    text-align:center;
+}
+
+p {
+    font-family: VarelaRound;
+    font-size: 20px;
+    color: #FFFFFF;
+    white-space: nowrap;
+    text-align:center;
+}
+
+header {
+    margin-top: 60px;   
+}
+
+body {
+    background-color: #F9AC08;
+}
+
+label {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+}
+
