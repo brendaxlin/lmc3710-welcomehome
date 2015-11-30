@@ -70,7 +70,6 @@ p {
     font-family: VarelaRound;
     font-size: 20px;
     color: #FFFFFF;
-    white-space: nowrap;
     text-align:center;
 }
 
@@ -92,3 +91,38 @@ div {
     margin: 0;
 }
 
+.big-btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: ShadowsIntoLight;
+  color: #ffffff;
+  font-size: 40px;
+  background: #3498db;
+  text-align: center;
+  padding: 50px;
+  text-decoration: none;
+}
+
+.big-btn:hover {
+  background: #424547;
+  text-decoration: none;
+}
+
+.small-btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: ShadowsIntoLight;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3498db;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.small-btn:hover {
+  background: #424547;
+  text-decoration: none;
+}
