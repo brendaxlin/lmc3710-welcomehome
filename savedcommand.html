@@ -62,60 +62,10 @@
         <div class="container">
 
           <div class="starter-template">
-            <h1>Create A New Command</h1>
-            <p class="lead">Drag functionalities into the if and then blocks to create new commands.</p>
+
+            <h1> <class id="cmd"> Saved Command</h1>
+            <p class="lead">This is your new saved command.</p>
           </div>
-
-        </div><!-- /.container -->
-
-        <div class="container col-md-12">
-          <!-- Drag and Drop stuff with interact.js starts here  ================================================== -->
-          <script src="interact.js/interact.js"></script>
-          <script src="public/draganddrop.js"></script>
-
-          <h5>August Smart Lock</h5>
-          <div id="yes-drop" class="draggable drag-drop"> #Open Lock</div>
-          <div id="yes-drop" class="draggable drag-drop"> #Close Lock </div>
-
-          <h5>Philips Hue Light Bulbs</h5>
-          <div id="yes-drop" class="draggable drag-drop"> #Turn On </div>
-          <div id="yes-drop" class="draggable drag-drop"> #Turn Off </div>
-
-          <h5>Precision Smart Glass</h5>
-          <div id="yes-drop" class="draggable drag-drop"> #100% Opacity </div>
-          <div id="yes-drop" class="draggable drag-drop"> #0% Opacity </div>
-
-          <h5>Genric Commands</h5>
-          <div id="yes-drop" class="draggable drag-drop"> #Sunset </div>
-          <div id="yes-drop" class="draggable drag-drop"> #Sunrise </div>
-
-          <div id="outer-dropzone" class="dropzone">#IF-dropzone</div>
-          <div id="inner-dropzone" class="dropzone">#THEN-dropzone</div>
-
-<div class="form-group col-md-7 col-md-offset-2">
-  <label for="cmd">Command Name:</label>
-  <input type="text" class="form-control" id="cmd">
-</div>
-
-          <div class="col-md-10 col-md-offset-9">
-            <input type="submit" onclick="othername();" button id="saveCommand" button type="button" class="btn btn-success">
-            </button>
-            <button id="cancelCommand" button type="button" class="btn btn-default">Cancel</button>
-          </div>
-
-<script>
-function othername() {
-    var input = document.getElementById("cmd").value;
-    alert(input);
-}
-</script>
-
-
-<script type="text/javascript">
-    document.getElementById("saveCommand").onclick = function () {
-        location.href = "savedcommand.html";
-    };
-</script>
 
         </div><!-- /.container -->
 
