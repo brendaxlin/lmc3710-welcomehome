@@ -38,6 +38,8 @@
     </head>
 
     <body>
+
+    <!-- NAVIGATION BARS ================================================== -->
       <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
@@ -58,35 +60,75 @@
           </div><!--/.nav-collapse -->
         </div>
       </nav>
+      <!-- /NAVIGATION BARS ================================================== -->
 
-      <div class="container">
 
-        <div class="starter-template">
-          <h1>Bootstrap starter template</h1>
-          <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-        </div>
 
-      </div><!-- /.container -->
+      <!-- BOTTOM SIDE ================================================== -->
 
-      <!-- Drag and Drop stuff with interact.js starts here  ================================================== -->
-      <script src="interact.js/interact.js"></script>
-      <script src="public/draganddrop.js"></script>
+          <!-- Drag and Drop stuff with interact.js starts here  ================================================== -->
+            <script src="interact.js/interact.js"></script>
+            <script src="public/draganddrop.js"></script>
+            <link rel="stylesheet" href="public/draganddrop.css">
+            
+            <div class = "col-sm-6">
+              <div id="outer-dropzone" class="dropzone">IF </div>
+            </div>
+            <div class = "col-sm-6">
+              <div id="inner-dropzone" class="dropzone">THEN </div>
+            </div>
+          <!--/drag and drop stuff-->
 
-      <div id="drag-1" class="draggable">
-        <p> You can drag one element </p>
-      </div>
-      <div id="drag-2" class="draggable">
-          <p> with each pointer </p>
-      </div>
+          <div class="col-md-10 col-md-offset-9">
+            <button type="button" class="btn btn-primary">Save</button>
+            <button type="button" class="btn btn-default">Cancel</button>
+          </div>
 
-      <div id="no-drop" class="draggable drag-drop"> #no-drop </div>
+      <!-- /BOTTOM SIDE ================================================== -->
 
-      <div id="yes-drop" class="draggable drag-drop"> #yes-drop </div>
 
-      <div id="outer-dropzone" class="dropzone">
-        #outer-dropzone
-        <div id="inner-dropzone" class="dropzone">#inner-dropzone</div>
-      </div>
+      <!-- TOP SIDE ================================================== -->
+
+      <div class="container-fluid">
+        <h1>Create a New Command</h1>
+
+        <h3>
+          August Smart Lock
+        </h3>  
+        <!-- Drag and Drop stuff
+        ======================== -->
+          <div id="yes-drop" class="draggable drag-drop"> Close Lock </div>
+          <div id="yes-drop" class="draggable drag-drop"> Open Lock </div>
+
+        <h3>
+          Smart Glass
+        </h3>
+          <!-- Drag and Drop stuff
+          ======================== -->
+          <div id="yes-drop" class="draggable drag-drop"> 100% Opacity </div>
+          <div id="yes-drop" class="draggable drag-drop"> 75% Opacity </div>
+          <div id="yes-drop" class="draggable drag-drop"> 50% Opacity </div>
+          <div id="yes-drop" class="draggable drag-drop"> 25% Opacity </div>
+          <div id="yes-drop" class="draggable drag-drop"> Translucent (0% Opacity)</div>
+
+
+        <h3>
+          Phillips Hue Bulbs
+        <h3>
+          <!-- Drag and Drop stuff
+          ======================== -->
+          <div id="yes-drop" class="draggable drag-drop"> Turn On </div>
+          <div id="yes-drop" class="draggable drag-drop"> 75% Dim </div>
+          <div id="yes-drop" class="draggable drag-drop"> 50% Dim </div>
+          <div id="yes-drop" class="draggable drag-drop"> 25% Dim </div>
+          <div id="yes-drop" class="draggable drag-drop"> Turn Off </div>
+
+
+      <!-- /TOP SIDE ================================================== -->
+
+
+      </div><!-- /container fluid -->
+
 
       <!-- Bootstrap core JavaScript
       ================================================== -->
