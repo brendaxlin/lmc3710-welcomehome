@@ -11,7 +11,7 @@
       <meta name="author" content="">
       <link rel="icon" href="../../favicon.ico">
 
-      <title>WELCOME HOME | Smart Home Unification</title>
+      <title>WELCOME HOME | Device Management</title>
 
       <link rel="stylesheet" href="public/draganddrop.css">
 
@@ -48,13 +48,15 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" style = "font-family: ShadowsIntoLight;" href="#">Welcome Home</a>
+            <a class="navbar-brand" style = "font-family: ShadowsIntoLight;">Welcome Home</a>
           </div>
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#" style = "font-family: ShadowsIntoLight;">Home</a></li>
+              <li><a href="index.html" style = "font-family: ShadowsIntoLight;">Home</a></li>
               <li><a href="about.html" style = "font-family: ShadowsIntoLight;">About</a></li>
               <li><a href="contact.html" style = "font-family: ShadowsIntoLight;">Contact</a></li>
+              <li><a href="devicelanding.html" style = "font-family: ShadowsIntoLight;">Device Management</a></li>
+              <li class="active"><a style = "font-family: ShadowsIntoLight;">Event Management</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -63,12 +65,22 @@
       <div class="container">
 
         <div class="starter-template">
-          <h1 style = "margin: 30px; font-size: 100px;">Welcome Home</h1>
-          <p class="lead"></p>
+          <h1 style = "margin: 30px;">Add Device</h1>
+          <p class="lead">Connect your new device via bluetooth</p>
+        </div>
+        <div class = "col-sm-12" style = "padding: 50px;">
+          <ul class="input-list style-4" align = "center">
+            <li class = "col-sm-4" style = "margin: 10px;">
+              <input type="text" placeholder="Name">
+            </li>
+            <li class = "col-sm-4" style = "margin: 10px;">
+              <input type="text" placeholder="Description">
+            </li>
+          </ul>
         </div>
         <div>
-        <a href = "devicelanding.html"><div class = "big-btn col-sm-5">Device Management</div></a><div class = "col-sm-1"></div>
-        <a href = "eventlanding.html"><div class = "big-btn col-sm-5">Event Management</div></a>
+        <div class = "col-sm-5"></div><div class = "col-sm-2 small-btn">Save</div>
+        <div class = "col-sm-5"></div>
         </div>
       </div>
     </body>
