@@ -252,11 +252,16 @@ span.ellipse {
 }
 
 .eventSlide {
-  background-color: white;
   width: 30px;
   height: 35%;
   margin: 10px;
 }
+
+.small_icon {
+  height: 65px;
+  width: 65px;
+}
+
 
 .medium_icon {
   height: 75px;

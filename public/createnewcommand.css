@@ -14,4 +14,152 @@
 	 
 }
 
+body {
+    background-color: #F9AC08;
+    font-family: VarelaRound;
+    font-size: 15px;
+    color: #000000;
+    text-align:left;
+}
 
+
+h1 {
+     font-family: ShadowsIntoLight;
+     font-size: 50px;
+     color: #FFFFFF;
+     white-space: nowrap;
+     text-align:center;
+}
+
+h2 {
+    font-family: ShadowsIntoLight;
+    font-size: 30px;
+    color: #FFFFFF;
+    white-space: nowrap;
+    text-align:center;
+}
+
+h3 {
+    font-family: ShadowsIntoLight;
+    font-size: 30px;
+    color: #979CB8;
+    white-space: nowrap;
+    text-align:center;
+}
+
+h5 {
+    font-family: VarelaRound;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align:center;
+}
+
+h6 {
+    font-family: VarelaRound;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align:left;
+}
+
+h7 {
+    font-family: ShadowsIntoLight;
+    font-size: 30px;
+    color: #000000;
+    text-align:left;
+}
+
+h8 {
+    font-family: ShadowsIntoLight;
+    font-size: 15px;
+    color: #000000;
+    text-align:left;
+}
+
+/*Color*/
+.color-yellow {
+    color: #F9AC08;
+}
+
+.color-green {
+    color: #AAC720;
+}
+
+.color-blue {
+    color: #01ABCF;
+}
+
+.color-pink {
+    color: #EA3A68;
+}
+
+.color-white {
+    color: #FFFFF;
+}
+
+.color-lightgray {
+    color:#979CB8;
+}
+
+.color-darkgray {
+    color: #505670;
+}
+
+.color-papergray {
+    color:#F5F5F5;
+}
+
+.alert {
+padding: 8px 35px 8px 14px;
+margin-bottom: 18px;
+color: #c09853;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+background-color: #fcf8e3;
+border: 1px solid #fbeed5;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.alert-success {
+	font-family: VarelaRound;
+    font-size: 15px;
+color: #468847;
+background-color: #AAC720;
+border-color: #B4C73B;
+}
+
+.big-btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: ShadowsIntoLight;
+  color: #ffffff;
+  font-size: 40px;
+  background: #3498db;
+  text-align: center;
+  padding: 50px;
+  text-decoration: none;
+}
+
+.big-btn:hover {
+  background: #424547;
+  text-decoration: none;
+}
+
+.small-btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: ShadowsIntoLight;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3498db;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.small-btn:hover {
+  background: #424547;
+  text-decoration: none;
+}

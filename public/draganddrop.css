@@ -30,7 +30,8 @@
 #inner-dropzone {
   height: 700px;
   width: 300px;
-  background-color: rgb(255,205,0);
+  background-color: #3a81ba;
+  color: #fff;
 }
 
 .dropzone {
@@ -60,7 +61,7 @@
   padding: 2em 0.5em;
 
   color: #fff;
-  background-color: #9E9E9E;
+  background-color: #BFD0CC;
   border: solid 2px #fff;
 
   -webkit-transform: translate(0px, 0px);
