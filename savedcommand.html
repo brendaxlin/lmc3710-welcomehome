@@ -15,6 +15,7 @@
 
   <link rel="stylesheet" href="public/draganddrop.css">
   <link rel="stylesheet" href="public/wh_styles.css">
+  <link rel="stylesheet" href="public/createnewcommand.css">
 
   <!-- Bootstrap core CSS -->
   <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -60,8 +61,11 @@
 
           <div class="starter-template">
 
-            <h1> <class id="cmd" >Saved Command</h1>
-
+            <div class="alert alert-success" role="alert">
+              <h5>Congrats! You have made a new command!</h5>
+            </div>
+            <h1> <class id="cmd">Command saved.</h1>
+            
             <script src="public/commands.js"></script>
             <script>
             var obj = JSON.parse(localStorage.getItem('storage'));
@@ -69,9 +73,48 @@
             document.write(obj.uinput);
             </script>
             
-
-            <h3 class="lead">This is your new saved command.</h3>
           </div>
+
+
+          <div class="row">
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="public/acqoE64Ri.gif" alt="...">
+                <div class="caption">
+                  <h3>Sunrise</h3>
+                  <body>7:24 AM <br> Wednesday, December 2, 2015 (EST) <br> Sunrise in Atlanta, GA 30318
+                  </body>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="public/13101880783_797cb599ac_b.jpg" alt="...">
+                <div class="caption">
+                  <h3>Turn on Coffee Machine</h3>
+                  <body>Belkin WeMo Insight Switch <br> Automatically turn on coffee machine when stated. <br> The WeMo system is home automation made easy. </body>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <br><br>
+          <div class="container">
+            <div class="col-md-12">
+              <a href="editcommand.html" class="btn btn-primary btn-md btn-block" role="button">Edit Command</a>
+
+              <a href="eventlanding.html" class="btn btn-default btn-md btn-block" role="button">View Your Commands</button></a>
+
+            </div>
+          </div>
+
+          <br><br>
+
+
 
         </div><!-- /.container -->
 
