@@ -14,17 +14,14 @@
   <title>WELCOME HOME</title>
 
   <link rel="stylesheet" href="public/draganddrop.css">
+  <link rel="stylesheet" href="public/wh_styles.css">
+  <link rel="stylesheet" href="public/createnewcommand.css">
 
   <!-- Bootstrap core CSS -->
   <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
   <!-- Custom styles for this template -->
   <link href="bootstrap-starter-template/starter-template.css" rel="stylesheet">
-
-  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
       <!--[if lt IE 9]>
@@ -37,33 +34,33 @@
       <body>
 
         <!-- NAVIGATION BARS ================================================== -->
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" style = "font-family: ShadowsIntoLight;" href="#">Welcome Home</a>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" style = "font-family: ShadowsIntoLight;" href="#">Welcome Home</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#" style = "font-family: ShadowsIntoLight;">Home</a></li>
+                <li><a href="about.html" style = "font-family: ShadowsIntoLight;">About</a></li>
+                <li><a href="contact.html" style = "font-family: ShadowsIntoLight;">Contact</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
           </div>
-          <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#" style = "font-family: ShadowsIntoLight;">Home</a></li>
-              <li><a href="about.html" style = "font-family: ShadowsIntoLight;">About</a></li>
-              <li><a href="contact.html" style = "font-family: ShadowsIntoLight;">Contact</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </nav>
+        </nav>
         <!-- /NAVIGATION BARS ================================================== -->
 
         <div class="container">
 
           <div class="starter-template">
             <h1>Create A New Command</h1>
-            <p class="lead">Drag functionalities into the if and then blocks to create new commands.</p>
+            <h3 class="lead">Drag functionalities into the if and then blocks to create new commands.</h3>
           </div>
 
         </div><!-- /.container -->
@@ -73,51 +70,54 @@
           <script src="interact.js/interact.js"></script>
           <script src="public/draganddrop.js"></script>
 
-          <h5>August Smart Lock</h5>
-          <div id="yes-drop" class="draggable drag-drop"> #Open Lock</div>
-          <div id="yes-drop" class="draggable drag-drop"> #Close Lock </div>
 
-          <h5>Philips Hue Light Bulbs</h5>
-          <div id="yes-drop" class="draggable drag-drop"> #Turn On </div>
-          <div id="yes-drop" class="draggable drag-drop"> #Turn Off </div>
-
-          <h5>Precision Smart Glass</h5>
-          <div id="yes-drop" class="draggable drag-drop"> #100% Opacity </div>
-          <div id="yes-drop" class="draggable drag-drop"> #0% Opacity </div>
-
-          <h5>Genric Commands</h5>
-          <div id="yes-drop" class="draggable drag-drop"> #Sunset </div>
-          <div id="yes-drop" class="draggable drag-drop"> #Sunrise </div>
-
-          <div id="outer-dropzone" class="dropzone">#IF-dropzone</div>
-          <div id="inner-dropzone" class="dropzone">#THEN-dropzone</div>
-
-<div class="form-group col-md-7 col-md-offset-2">
-  <label for="cmd">Command Name:</label>
-  <input type="text" class="form-control" id="cmd">
-</div>
-
-          <div class="col-md-10 col-md-offset-9">
-            <input type="submit" onclick="othername();" button id="saveCommand" button type="button" class="btn btn-success">
-            </button>
-            <button id="cancelCommand" button type="button" class="btn btn-default">Cancel</button>
+          <div class="form-group col-md-10 col-md-offset-1">
+            <label for="cmd"></label>
+            <input type="text" id="userInput" class="form-control">
           </div>
 
-<script>
-function othername() {
-    var input = document.getElementById("cmd").value;
-    alert(input);
-}
-</script>
+          <div class="column-left">
+
+            <h5>August Smart Lock</h5>
+
+            <div id="yes-drop" class="draggable drag-drop"> #Open Lock</div>
+            <div id="yes-drop" class="draggable drag-drop"> #Close Lock </div>
+
+            <h5>Philips Hue Light Bulbs</h5>
+            <div id="yes-drop" class="draggable drag-drop"> #Turn On </div>
+            <div id="yes-drop" class="draggable drag-drop"> #Turn Off </div>
+
+            <h5>Precision Smart Glass</h5>
+
+            <div id="yes-drop" class="draggable drag-drop"> #100% Opacity </div>
+            <div id="yes-drop" class="draggable drag-drop"> #0% Opacity </div>
+
+            <h5 >Genric Commands</h5>
+
+            <div id="yes-drop" class="draggable drag-drop"> #Sunset </div>
+            <div id="yes-drop" class="draggable drag-drop"> #Sunrise </div>
+
+          </div>
+
+          <div class="column-center">
+            <div id="outer-dropzone"  class="dropzone center" style="display:block; float:right;">#IF-dropzone</div>
+          </div>
+
+          <div class="column-left">
+            <div id="inner-dropzone" class="dropzone center">#THEN-dropzone</div>
+          </div>
+
+          <div class="col-md-10 col-md-offset-9">
+            <a href="savedcommand.html" input type="submit" onClick="submit();" class="btn btn-primary btn-lg" role="button"> Save </a>
+            <button id="cancelCommand" button type="button" class="btn btn-default btn-lg">Cancel</button>
+          </div>
 
 
-<script type="text/javascript">
-    document.getElementById("saveCommand").onclick = function () {
-        location.href = "savedcommand.html";
-    };
-</script>
 
         </div><!-- /.container -->
+
+
+
 
       <!-- Bootstrap core JavaScript
       ================================================== -->
@@ -125,8 +125,8 @@ function othername() {
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
       <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-      <script src="bootstrap-starter-template/ie10-viewport-bug-workaround.js"></script>
+      <script type="text/javascript" src="public/commands.js"></script>
+
 
     </body>
 

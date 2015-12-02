@@ -50,6 +50,7 @@
 }
 
 .drag-drop {
+
   display: inline-block;
   min-width: 40px;
   padding: 2em 0.5em;
@@ -67,4 +68,11 @@
 .drag-drop.can-drop {
   color: #000;
   background-color: #4e4;
+}
+
+.center {
+    width:100%;
+    margin:0 auto;
+    display:inline-block;
+    text-align:center;
 }

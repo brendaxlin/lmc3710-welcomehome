@@ -2,13 +2,13 @@
 interact('.draggable')
   .draggable({
     // enable inertial throwing
-    inertia: true,
+    //inertia: true,
     // keep the element within the area of it's parent
-    restrict: {
-      restriction: "parent",
-      endOnly: true,
-      elementRect: { top: 0, left: 0, bottom: 1, right: 1 }
-    },
+    //restrict: {
+      //restriction: "parent",
+      //endOnly: true,
+      //elementRect: { top: 0, left: 0, bottom: 1, right: 1 }
+    //},
     // enable autoScroll
     autoScroll: true,
 
@@ -69,16 +69,16 @@ interact('.dropzone').dropzone({
     // feedback the possibility of a drop
     dropzoneElement.classList.add('drop-target');
     draggableElement.classList.add('can-drop');
-    draggableElement.textContent = 'Dragged in';
+    //draggableElement.textContent = 'Dragged in';
   },
   ondragleave: function (event) {
     // remove the drop feedback style
     event.target.classList.remove('drop-target');
     event.relatedTarget.classList.remove('can-drop');
-    event.relatedTarget.textContent = 'Dragged out';
+    //event.relatedTarget.textContent = 'Dragged out';
   },
   ondrop: function (event) {
-    event.relatedTarget.textContent = 'Dropped';
+    //event.relatedTarget.textContent = 'Dropped';
   },
   ondropdeactivate: function (event) {
     // remove active dropzone feedback
