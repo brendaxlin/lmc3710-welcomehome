@@ -258,6 +258,11 @@ span.ellipse {
   margin: 10px;
 }
 
+.small_icon {
+  width: 30%;
+  margin-left: 7%;
+}
+
 .medium_icon {
   height: 75px;
   width: 75px;
