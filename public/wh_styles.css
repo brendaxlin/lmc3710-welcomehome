@@ -276,6 +276,10 @@ span.ellipse {
   background-color:#979CB8; 
 }
 
+.eventSlide:hover {
+  background-color:#979CB8; 
+}
+
 a {
   text-decoration: none;
 }
