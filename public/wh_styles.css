@@ -134,6 +134,24 @@ div {
   text-decoration: none;
 }
 
+.small-2-btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: ShadowsIntoLight;
+  color: #F9AC08;
+  font-size: 20px;
+  background: #ffffff;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.small-2-btn:hover {
+  background: #424547;
+  text-decoration: none;
+}
+
 /* lists */
 ul.list-bar {
   list-style: none;
